@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(228, 138, 28);
+    display: flex;
+    min-height: 98vh;
+    flex-direction: column;
+}
+header{
+    display: flex;
+}
+
+main{
+    display: flex;
+}
+
+#menuItem{
+    margin: auto;
+    border-color: black;
+}
+
+footer{
+    margin-top: auto;
+}
+
+form#autorization{
+    background-color: rgb(223, 145, 51);
+    padding: 10px;
+}
+
+div#autorizationItem{
+    margin: 10px;
+}
+
+div#cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+card{
+    background-color: rgb(151, 88, 10);
+    padding: 3px;
+    margin: 15px;
+    border: 1px solid;
+    border-color: rgb(110, 63, 5);
+    box-shadow: rgb(70, 39, 2) 0px 0px 2px;
+    display: table-column
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, tr, th{
+    border: 1px solid black;
+}
+
+div#mainContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div#buttons{
+    max-width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 5px;
+}
+
+#tableContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.free{
+    background-color: green;
+}
+
+.notFree{
+    background-color: red;
+}
